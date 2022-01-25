@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+.home {
+  background-size: cover;
+  background-position: center bottom;
+  background-image: url("../../img/home4.jpg"); }
+
+.top-container {
+  font-family: 'Poppins', sans-serif;
+  min-height: 95vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 55px; }
+  .top-container .top-p {
+    position: relative;
+    right: 35px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    animation: font-opacity 2s steps(29, end) 1s 1 normal both; }
+
+@keyframes font-opacity {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+/*# sourceMappingURL=Home.css.map */
