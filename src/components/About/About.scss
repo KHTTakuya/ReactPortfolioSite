@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+
+.about-top {
+  position: relative;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-size: 4.0em;
+  color: #282c34;
+  font-family: 'Montserrat Subrayada', sans-serif !important;
+}
+
+.main-box {
+  margin-top: 70px !important;
+
+  .box-font {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-box {
+    margin-top: 20px !important;
+    width: 700px;
+    letter-spacing: 0.5px;
+   .about-page {
+     padding-left: 25px !important;
+     padding-right: 5px !important;
+     margin-bottom: 10px;
+   }
+   ul {
+     list-style: none;
+     font-size: 1.05em;
+     padding-bottom: 10px;
+   }
+   p {
+     font-size: 1.1em;
+   }
+ }
+
+}
+
+.c {
+  position: absolute;
+  max-width: 500px;
+  max-height: 500px;
+  width: 500px;
+  height: 500px;
+  cursor: pointer;
+  will-change: transform, opacity;
+}
+
+.img-front,
+.img-back {
+  background-size: cover;
+}
+
+.img-back {
+  background-image: url("./img/tiger.jpg");
+}
+
+.img-front {
+  background-image: url(https://images.unsplash.com/photo-1544511916-0148ccdeb877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1901&q=80i&auto=format&fit=crop);
+}
+
+.img-container {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -27,7 +27,7 @@ export default function App() {
     const [open, set] = useState(true)
     return (
         <div className="container">
-            <Trail open={open}>
+            <Trail open={open} className="sub-content">
                 <span>Welcome</span>
                 <span>To</span>
                 <span>My Portfolio</span>

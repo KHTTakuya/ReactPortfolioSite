@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Corben&display=swap");
 .trailsText {
   position: relative;
   width: 100%;
@@ -19,5 +20,9 @@
   align-items: center;
   height: 100%;
   justify-content: center; }
+  .container span {
+    letter-spacing: 1px;
+    line-height: 1px;
+    font-family: 'Corben', cursive !important; }
 
 /*# sourceMappingURL=TopTitle.css.map */

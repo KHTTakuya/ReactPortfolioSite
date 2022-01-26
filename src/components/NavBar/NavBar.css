@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif !important; }
 
 .nav-header {
   position: fixed;
@@ -14,7 +14,8 @@
   justify-content: space-between;
   align-items: center;
   transition: 0.6s;
-  padding: 20px 20px; }
+  padding: 20px 20px;
+  z-index: 100; }
   .nav-header .logo-a {
     width: 70px; }
     .nav-header .logo-a .logo {
@@ -26,19 +27,19 @@
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    cursor: pointer; }
     .nav-header ul li {
       position: relative;
-      list-style: none; }
-      .nav-header ul li a {
-        font-size: 1.15rem;
-        position: relative;
-        margin: 0 15px;
-        text-decoration: none;
-        color: black;
-        letter-spacing: 1px;
-        font-weight: bold;
-        transition: 0.6s; }
+      list-style: none;
+      font-size: 1.15rem;
+      position: relative;
+      margin: 0 15px;
+      text-decoration: none;
+      color: black;
+      letter-spacing: 1px;
+      font-weight: bold;
+      transition: 0.6s; }
 
 .sticky {
   background: #fff;
@@ -51,7 +52,7 @@
   align-items: center;
   transition: 0.6s;
   padding: 5px 20px; }
-  .sticky ul li a {
+  .sticky ul li {
     color: aqua; }
 
 /*# sourceMappingURL=NavBar.css.map */

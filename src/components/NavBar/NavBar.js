@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import { Link as Scroll } from 'react-scroll';
 import "./NavBar.scss"
 import logoImag from "./logo.png"
 
@@ -27,10 +28,18 @@ export const NavBar = () =>{
         <div className={`nav-header ${scroll ? 'sticky' : ''}`}>
             <a href="/" className="logo-a"><img className="logo" src={logoImag} alt="logo"/></a>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">About</a></li>
-                <li><a href="/">Portfolio</a></li>
-                <li><a href="/">Contact</a></li>
+                <Scroll to="home" smooth={true} offset={-10}>
+                    <li>Home</li>
+                </Scroll>
+                <Scroll to="about" smooth={true} offset={-70}>
+                    <li>About</li>
+                </Scroll>
+                <Scroll to="portfolio" smooth={true} offset={-70}>
+                    <li>Portfolio</li>
+                </Scroll>
+                <Scroll to="contact" smooth={true} offset={-70}>
+                    <li>Contact</li>
+                </Scroll>
             </ul>
         </div>
     );

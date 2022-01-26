@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+
+.portfolio-top {
+  position: relative;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-size: 4.0em;
+  color: #282c34;
+  font-family: 'Montserrat Subrayada', sans-serif !important;
+}
+
+.portfolio-con {
+  margin-top: 50px !important;
+
+  .grid-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px !important;
+  }
+}

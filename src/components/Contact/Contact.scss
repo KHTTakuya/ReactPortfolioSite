@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+
+.contact-top {
+  position: relative;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-size: 4.0em;
+  color: #282c34;
+  font-family: 'Montserrat Subrayada', sans-serif !important;
+}
+.contact-con {
+  margin-top: 70px !important;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+  .contact-parts {
+    margin-top: 20px;
+  }
+
+  form {
+    width: 600px;
+  }
+}
+
+.comment-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 1.1rem;
+}
