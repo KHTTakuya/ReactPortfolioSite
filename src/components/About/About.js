@@ -18,6 +18,10 @@ export const About = () => {
                 </Grid>
                 <Grid item md={12} lg={7} className="about-box">
                     <div className="about-page">
+                        <h3 style={{padding: "10px 0"}}>
+                            高橋 拓也(タカハシ タクヤ)<br />
+                            1998年7月29日生まれ　福岡市在住
+                        </h3>
                         <h2>経歴</h2>
                         <ul>
                             <li>■ 平成29年4月：福岡大学　商学部　商学科　入学</li>
