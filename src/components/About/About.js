@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import {Container} from "@mui/material";
 import {Grid} from "@mui/material";
 
@@ -37,21 +37,23 @@ export const About = () => {
                         </p>
                         <p>
                             &ensp;退職後、Webエンジニアの仕事に興味をもちPythonやReactといったプログラミング言語を独学で学んでいます。
-                            積極的にアウトプットするために、Webサイトや予想モデルなどといった作品を作成をしています。
+                            積極的にアウトプットするために、Webサイトや予想モデルなどといった作品を作成しています。
                         </p>
                     </div>
                     <div className="about-page">
-                        <h2>使用言語</h2>
+                        <h2>使用言語・ツール</h2>
                         <ul>
                             <li>■ Python</li>
                             <li>■ Django</li>
                             <li>■ Django Rest Framework</li>
                             <li>■ React</li>
                             <li>■ HTML-CSS</li>
+                            <li>■ AWS・GCP</li>
+                            <li>■ Docker</li>
                         </ul>
                         <p>
                             今後は今学んでいる言語をさらに磨きをかけていくのと同時に、
-                            PHP、Go、Rubyといった言語を学んでいきたいです。
+                            PHP、Go、Ruby、Javaといった言語やCI/CDといったツールも学んでいきたいです。
                         </p>
                     </div>
                 </Grid>

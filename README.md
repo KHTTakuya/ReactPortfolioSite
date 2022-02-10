@@ -1,3 +1,22 @@
+# ブログサイト(フロントエンド部分)
+
+## はじめに
+ご覧いただきありがとうございます。\
+こちらのブログサイトはフロントエンドにJS(ReactHooks)、バックエンドにDjangoRestFrameを使用し作成しました。
+
+競馬予想サイトから始まり、ポートフォリオサイトそしてこのブログサイトで三作品目になります。\
+まだまだ若輩者ですがどうぞよろしくお願いいたします。
+
+
+・バックエンドの処理はこちらから \
+[DjangoRestFrameWorkBlogBackEnd](https://github.com/KHTTakuya/DjangoRestFrameWorkBlogBackEnd)
+
+・AWSにバックエンドと同様にデプロイしました！ \
+ブログサイトは[こちらから](https://blog.dh84hlb3q8tbk.amplifyapp.com/)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
